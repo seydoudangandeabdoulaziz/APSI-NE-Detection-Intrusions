@@ -7,43 +7,35 @@ et l'évaluation de modèles de détection d'intrusions réseau.
 
 ## Source officielle
 
-Les données sont disponibles sur le site de l'Université
-de Nouvelle-Galles du Sud (UNSW Canberra) :
+Université de Nouvelle-Galles du Sud (UNSW Canberra) :
 
 https://research.unsw.edu.au/projects/unsw-nb15-dataset
 
 ## Fichiers nécessaires
 
-Télécharger les deux fichiers suivants :
+Trois fichiers sont utilisés dans ce projet :
 
+- NUSW-NB15_features.csv
 - UNSW_NB15_training-set.csv
 - UNSW_NB15_testing-set.csv
 
 ## Installation locale
 
-Après téléchargement, placer les fichiers dans le dossier :
-
-data/raw/
+Télécharger les trois fichiers depuis la source officielle
+et les placer dans le dossier data/raw/.
 
 Structure attendue :
 
 data/
 ├── README.md
 └── raw/
+    ├── NUSW-NB15_features.csv
     ├── UNSW_NB15_training-set.csv
     └── UNSW_NB15_testing-set.csv
 
 ## Important
 
-Les fichiers bruts ne sont pas versionnés sur GitHub.
-Ils doivent être téléchargés séparément depuis la source officielle.
+Les données brutes ne sont pas publiées sur GitHub.
+Elles doivent être téléchargées séparément.
 
-Le dossier data/raw/ est volontairement exclu du dépôt
-par le fichier .gitignore.
-
-## Référence académique
-
-Moustafa, N. et Slay, J. (2015).
-UNSW-NB15: A Comprehensive Data Set for Network
-Intrusion Detection Systems.
-Military Communications and Information Systems Conference (MilCIS).
+Le dossier data/raw/ est exclu du dépôt par .gitignore.
